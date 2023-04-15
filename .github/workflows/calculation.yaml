@@ -7,12 +7,10 @@ jobs:
     name: A job to say hello 
     steps:
     - name: Github with Docker
-      uses: jlfrancisco/github-action-docker/action.yaml@v1.0
+      uses: jlfrancisco/github-action-docker@v1.0
       id: script 
       with: 
         param1: 1 
         param2: 2
     - name: Get the output time 
       run: echo "This is the result ${{steps.script.outputs.result}}"
-  
-      
