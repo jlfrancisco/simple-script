@@ -1,6 +1,6 @@
 name: 'cicd'
 on: 
-  workflow_call:
+  workflow_dispatch:
     # inputs:
     #   param1:
     #     type: number
