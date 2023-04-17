@@ -16,12 +16,10 @@ jobs:
     steps:
       - name: Do calculation 
         id: script 
-        uses: docker://jeanlucsemedo/script:1.0 
+        uses: docker://jeanlucsemedo/script:2.0 
         with:
           args: 
             1
             3
       - name: Output results 
-        run: echo "This is the result ${{steps.script.outputs.result}}"
-
-      
+        run: echo "This is the result ${{steps.script.outputs.result}}" 
