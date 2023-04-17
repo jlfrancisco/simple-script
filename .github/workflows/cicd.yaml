@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Do calculation 
         id: script 
-        uses: docker://jeanlucsemedo/script:5.0 
+        uses: docker://jeanlucsemedo/script:6.0 
         with:
           args: 
             1
