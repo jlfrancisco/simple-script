@@ -9,4 +9,4 @@ def calculate(a, b):
 if __name__=="__main__":
     arg1, arg2 = sys.argv[1:3]
     printhello()
-    print(calculate(arg1, arg2))
+    print(f"echo result={calculate(arg1, arg2)}")
